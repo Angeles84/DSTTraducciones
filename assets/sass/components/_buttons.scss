@@ -1,0 +1,71 @@
+.servicios-button {
+  background-color: $light-gray;
+  border: 1.5px solid $esmerald;
+  color: $esmerald;
+  font-size: $small-b;
+  font-weight: $semibold;
+  padding: 0.7rem 1.9rem;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  &:hover {
+    border: 1.5px solid $turquesa;
+    color: $turquesa;
+  }
+}
+
+.formulario .button-input-file {
+  background-color: rgba(156, 197, 206, 0.45);
+  font-weight: $light-300;
+  font-size: 0.875rem;
+  padding-bottom: 0.17rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  border-color: transparent;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(122, 156, 163, 0.45);
+  }
+}
+
+.formulario .formulario-enviar {
+  background-color: white;
+  border: 1.5px solid white;
+  color: $esmerald;
+  font-size: $medium;
+  font-weight: $semibold;
+  padding: 0.8rem 1.7rem;
+  transition: all 0.6s ease;
+  width: 100%;
+  cursor: pointer;
+  &:hover {
+    border: 1.5px solid $turquesa;
+    color: $turquesa;
+  }
+  @include medium {
+    width: 38%;
+    padding: 0.5rem 1.7rem;
+    font-size: $small-b;
+  }
+  @include large {
+    width: 29%;
+  }
+  @include x-large {
+    width: 24%;
+  }
+}
+
+.modal button {
+  background-color: #fff;
+  border: 1.5px solid $esmerald;
+  color: $esmerald;
+  font-size: $small-b;
+  font-weight: $semibold;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  &:hover {
+    border: 1.5px solid $turquesa;
+    color: $turquesa;
+  }
+}

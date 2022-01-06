@@ -1,0 +1,53 @@
+
+
+nav a {
+  font-size: $header-cel;
+  transition: all 0.5s ease;
+  font-weight: $regular;
+  
+  @include small {
+    font-size: $small;
+  }
+  .nav-logo {
+    width: 3.2rem;
+
+    @include small {
+      width: 5rem;
+    }
+  }
+  .nav-bandera-b {
+    width: 1.5rem;
+    height: 0.85rem;
+    padding-bottom: 0.1rem;
+  }
+  .nav-green {
+    color: $esmerald;
+    font-weight: $semibold;
+  }
+  .nav-gray {
+    color: $gray;
+  }
+}
+.nav-nombre {
+  font-size: $header-cel;
+}
+
+nav a:last-child {
+  font-size: $small-b;
+  padding-top: 0.5rem;
+}
+
+.navbar-brand {
+  font-family: 'eurostiletmedregular';
+  font-size: $medium;
+
+  @include small {
+    font-size: $large;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+

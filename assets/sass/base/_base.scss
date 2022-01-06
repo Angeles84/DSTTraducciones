@@ -1,0 +1,256 @@
+//Servicios Home
+.servicio-1 {
+  height: 29vh;
+  background-image: url(../img/servicio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 18vh;  
+  }
+  @include large {
+    height: 27vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+  @include xx-large {
+    height: 24vh;  
+  }
+}
+
+.servicio-2 {
+  height: 29vh;
+  background-image: url(../img/servicio-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 18vh;  
+  }
+  @include large {
+    height: 27vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+  @include xx-large {
+    height: 24vh;  
+  }
+}
+
+.servicio-3 {
+  height: 29vh;
+  background-image: url(../img/servicio-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 18vh;  
+  }
+  @include large {
+    height: 27vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+  @include xx-large {
+    height: 24vh;  
+  }
+}
+
+
+//Why Us
+.article-why-us {
+  background-image: url(../img/why-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+}
+
+//Ubicacion
+.section-location {
+  background-image: url(../img/location.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right; 
+}
+
+//pag About-us
+.header-about-us {
+  background-image: url(../img/carousel-4-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; 
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.7rem;
+  @include small {
+    margin-top: 5rem;
+    padding-top: 3.8rem; 
+  }
+  @include medium {
+    margin-top: 4.5rem;
+    padding-top: 3rem; 
+  }
+  @include large {
+    padding-top: 7rem; 
+  }
+}
+
+
+//pag servicios
+.header-servicios {
+  background-image: url(../img/carousel-2-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; 
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.7rem;
+  @include small {
+    margin-top: 5rem;
+    padding-top: 3.8rem; 
+  }
+  @include medium {
+    margin-top: 4.5rem;
+    padding-top: 3rem; 
+  }
+  @include large {
+    padding-top: 8rem; 
+    padding-bottom: 0;
+  }
+}
+
+//Servicios pag
+.servicio-11 {
+  height: 22vh;
+  background-image: url(../img/servicio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 22vh;  
+  }
+  @include large {
+    height: 30vh;  
+  }
+  @include x-large {
+    height: 33vh;  
+  }
+  @include xxx-large {
+    height: 25vh;  
+  }
+}
+
+.servicio-22 {
+  height: 22vh;
+  background-image: url(../img/servicio-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 23vh;  
+  }
+  @include large {
+    height: 30vh;  
+  }
+  @include x-large {
+    height: 33vh;  
+  }
+  @include xxx-large {
+    height: 25vh;  
+  }
+}
+
+.servicio-33 {
+  height: 22vh;
+  background-image: url(../img/servicio-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 21vh;  
+  }
+  @include large {
+    height: 29vh;  
+  }
+  @include x-large {
+    height: 32vh;  
+  }
+  @include xxx-large {
+    height: 24vh;  
+  }
+}
+
+//Política de Confidencialidad pg
+.header-confidencialidad {
+  background-image: url(../img/carousel-3-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; 
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.7rem;
+  @include small {
+    margin-top: 5rem;
+    padding-top: 3.8rem; 
+  }
+  @include medium {
+    margin-top: 4.5rem;
+    padding-top: 3rem; 
+  }
+  @include large {
+    padding-top: 7rem; 
+  }
+}
+
+//Contacto-pag
+.header-contacto {
+  background-image: url(../img/carousel-5-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; 
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.7rem;
+  @include small {
+    margin-top: 5rem;
+    padding-top: 3.8rem; 
+  }
+  @include medium {
+    margin-top: 4.5rem;
+    padding-top: 3rem; 
+  }
+  @include large {
+    padding-top: 7rem; 
+  }
+}
+
+.section-form {
+  background-image: url(../img/img-form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+// sass --watch assets/sass/main.scss:assets/css/main.css
+
+

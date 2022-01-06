@@ -1,0 +1,100 @@
+footer {
+  padding-top: 2.6rem;
+  padding-bottom: 1.8rem;
+  h3 {
+    font-family: 'eurostiletmedregular';
+  }
+  .green {
+    color: $esmerald;
+    font-weight: $bold;
+  }
+  .grey {
+    color: $gray;
+    font-weight: $regular;
+  }
+  .footer-logo {
+    width: 6rem;
+
+    @include small {
+      width: 7rem;  
+    }
+  }
+}
+
+footer a {
+  margin-bottom: 0.4rem;
+  font-weight: $light-300;
+  transition: all 0.5s ease;
+  font-weight: $regular;
+  color: $dark-gray;
+  &:hover {
+    color: $green;
+    text-decoration: none;
+  }
+}
+
+.link-gray {
+  color: $gray-green;
+}
+
+footer h5 {
+  font-size: $header-cel; 
+  font-weight: $semibold; 
+}
+
+footer p {
+  margin-bottom: 0.4rem;
+  font-size: $small;
+}
+
+footer .footer-phone {
+  height: 1.6rem;
+}
+footer .footer-sobre {
+  height: 1.1rem;
+}
+
+.footer-fondo {
+  background-color: $light-gray;
+  p {
+    font-weight: $light-300;
+    font-size: $small;
+  }
+}
+
+.footer-col-2 {
+  padding-left: 4.5rem;
+}
+
+.footer-col-3 {
+
+  @include medium {
+    padding-left: 4.8rem; 
+  }
+  @include large {
+    padding-left: 3rem; 
+  }
+  
+}
+
+.footer-flex {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: nowrap;
+}
+
+.footer-about-us {
+  border-top: 1.5px solid $light-gray-green;
+}
+
+.footer-pg-interna-1 , .footer-pg-interna-2 {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  -webkit-justify-content: center;
+  @include medium {
+    justify-content: flex-start; 
+    -webkit-justify-content: flex-start;
+  }
+}

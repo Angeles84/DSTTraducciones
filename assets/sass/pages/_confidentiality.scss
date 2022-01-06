@@ -1,0 +1,36 @@
+.section-confidencialidad {
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  color: $dark-gray;
+
+  @include small {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;  
+  }
+  @include medium {
+    margin-top: 6rem; 
+  }
+  img {
+    width: 85%;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 6px 8px 50px rgba(0, 0, 0, 0.30);
+
+    @include small {
+      width: 70%; 
+    }
+    @include medium {
+      width: 55%; 
+    }
+    @include large {
+      width: 90%;
+    }
+    @include x-large {
+      width: 70%; 
+    }
+  }
+  span {
+    color: $esmerald;
+    font-weight: $semibold;
+    font-family: 'eurostiletmedregular';
+  }
+}
